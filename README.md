@@ -30,5 +30,6 @@ This project is an **end-to-end data analysis case study** conducted using **Pyt
 - Europe is the most profitable region, while Asia is underpenetrated.  
 
 ## 📂 Portfolio Access
-👉 View the full analysis [here](#) (HTML export via GitHub Pages).  
+You can view the interactive report here:  
+👉 [Sales Analysis Portfolio](https://wisnuwh22.github.io/portfolio-sales-analysis/)
 
