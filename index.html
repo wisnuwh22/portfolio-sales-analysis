@@ -7515,10 +7515,10 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">google.colab</span><span class="w"> </span><span class="kn">import</span> <span class="n">drive</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">google.colab</span><span class="w"> </span><span class="kn">import</span> <span class="n">drive</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">sqlite3</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
@@ -7529,7 +7529,7 @@ a.anchor-link {
 
 <span class="c1"># Environment Set up</span>
 <span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">'/content/drive'</span><span class="p">)</span>
-<span class="o">%</span><span class="n">cd</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">drive</span><span class="o">/</span><span class="n">MyDrive</span><span class="o">/</span><span class="n">dataset_final_project</span><span class="o">/</span>
+<span class="o">%</span><span class="k">cd</span> /content/drive/MyDrive/dataset_final_project/
 
 
 <span class="c1"># ============================================================</span>
@@ -8068,7 +8068,20 @@ In this dataset, fulfillment speed does not appear to be a major driver of profi
 <li><strong>2010–2012</strong>: Offline overtook Online and dominated.</li>
 <li><strong>2014 onwards</strong>: Both channels declined, with Online shrinking faster.</li>
 </ul>
-<p><strong>Insight:</strong> The company may be over-dependent on <strong>Offline sales</strong>, which are less predictable. Online, while more stable initially, needs revitalization to capture digital demand.</p>
+<p><strong>Key Insights:</strong></p>
+<ol>
+<li>Significant fluctuations in revenue are observed across both channels (online &amp; offline), with peaks in <strong>2012</strong> and <strong>2015</strong>, and sharp declines in <strong>2013</strong> and <strong>2017</strong>.</li>
+<li><strong>Offline sales</strong> were dominant in 2012 and 2015 but proved more volatile with drastic drops (e.g., 2013).</li>
+<li><strong>Online sales</strong> were relatively stable but have been declining since 2014, suggesting challenges in sustaining digital growth.</li>
+<li>Both channels declined in 2016–2017, indicating possible external factors (market downturn, regulation, or shifting customer preferences).</li>
+<li>Possible <strong>cannibalization between channels</strong>: in some years, growth in one channel coincides with a drop in the other (e.g., 2011–2012).</li>
+</ol>
+<p><strong>Business Questions to Explore Further:</strong></p>
+<ul>
+<li>Were external factors (internet penetration, regulation, new competitors) influencing these trends?</li>
+<li>Is there a correlation between marketing/sales expenses and channel-specific revenue?</li>
+<li>What strategies can reverse the decline (product diversification, digital transformation, omni-channel approach)?</li>
+</ul>
 <hr/>
 <h2 id="5.-Key-Insights-&amp;-Recommendations">5. Key Insights &amp; Recommendations<a class="anchor-link" href="#5.-Key-Insights-&amp;-Recommendations">¶</a></h2><h3 id="Key-Insights">Key Insights<a class="anchor-link" href="#Key-Insights">¶</a></h3><ul>
 <li><strong>Regional Performance:</strong> Europe remains the company’s backbone, but Asia underperforms and “Unknown” regions suggest data quality issues.</li>
